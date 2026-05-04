@@ -7,6 +7,12 @@
   <link rel="stylesheet" href="/css/style.css">
   <script src="[accounts.google.com](https://accounts.google.com/gsi/client)" async defer></script>
 </head>
+  <script>
+  // Set dari environment atau hardcode Client ID
+  window.GOOGLE_CLIENT_ID;
+  document.querySelector('#g_id_onload')?.setAttribute('data-client_id', window.GOOGLE_CLIENT_ID);
+</script>
+
 <body>
 <div class="toast-container" id="toastContainer"></div>
 
