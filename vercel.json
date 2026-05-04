@@ -21,9 +21,9 @@
     }
   ],
   "env": {
-    "DB_HOST": "@db_host",
-    "DB_USER": "@db_user",
-    "DB_PASSWORD": "@db_password",
+    "DB_HOST": "mysql.railway.andri",
+    "DB_USER": "root",
+    "DB_PASSWORD": "oTJruxCBQGyqnmbUbfwzsmqUXFtMLyFF",
     "DB_NAME": "@db_name",
     "JWT_SECRET": "@jwt_secret",
     "GOOGLE_CLIENT_ID": "@google_client_id",
