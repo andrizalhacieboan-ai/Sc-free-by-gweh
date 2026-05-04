@@ -71,10 +71,9 @@
 
 <script src="/js/auth.js"></script>
 <script>
-  // Set Google Client ID
-  document.querySelector('#g_id_onload').setAttribute(
-    'data-client_id', window.GOOGLE_CLIENT_ID
-  );
+  // Set dari environment atau hardcode Client ID
+  window.GOOGLE_CLIENT_ID;
+  document.querySelector('#g_id_onload')?.setAttribute('data-client_id', window.GOOGLE_CLIENT_ID);
 </script>
 </body>
 </html>
