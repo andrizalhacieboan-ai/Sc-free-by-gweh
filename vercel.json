@@ -26,7 +26,7 @@
     "DB_PASSWORD": "oTJruxCBQGyqnmbUbfwzsmqUXFtMLyFF",
     "DB_NAME": "railway",
     "JWT_SECRET": "6391938045965e6227425d02099920d4b4bc45a2538c16cac78f0b0fb750dfdfe163cb19b14b775b58e5f91ea52123921e376ed6f661188f2641e064d6da4680",
-    "GOOGLE_CLIENT_ID": "@google_client_id",
+    "GOOGLE_CLIENT_ID": "",
     "NODE_ENV": "production"
   }
 }
